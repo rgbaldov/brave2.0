@@ -14,18 +14,6 @@ This project implements a new control design for the BRAVE robot powered by **NV
 - `vision/` → Camera streaming & processing (almost same from 1st version but only 4 and without PTZ)
 - `brave2.0_controls.pdf` → System architecture & power design
 
-## 🚀 Getting Started
-1. Clone repo:
-   ```bash
-   git clone https://github.com/rgbaldov/brave2.0.git
-   cd brave2.0
-2. Install requirements:
-    ```bash
-   pip install -r requirements.txt
-3. Install requirements:
-    ```bash
-   python3 brave2.py
-
 ## 🛠️ Hardware Setup
 - Jetson Orin Nano
 - 4×4K USB/CSI cameras
