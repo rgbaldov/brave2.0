@@ -13,7 +13,7 @@ This project implements a new control design for the BRAVE robot powered by **NV
 - `vision/` → Camera streaming & processing
 - `control/` → Motor drivers (PWN, fuzzy) & remote control
 - `brave2.py` → Main program
-- `docs/` → System architecture & power design
+- `brave2.0_controls.pdf` → System architecture & power design
 
 ## 🚀 Getting Started
 1. Clone repo:
