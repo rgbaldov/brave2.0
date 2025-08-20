@@ -18,5 +18,5 @@ This project implements a new control design for the BRAVE robot powered by **NV
 ## 🚀 Getting Started
 1. Clone repo:
    ```bash
-   git clone https://github.com/yourusername/jetson-orin-robot.git
-   cd jetson-orin-robot
+   git clone https://github.com/rgbaldov/brave2.0.git
+   cd brave2.0
