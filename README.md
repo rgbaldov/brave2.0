@@ -11,8 +11,8 @@ This project implements a new control design for the BRAVE robot powered by **NV
 
 ## 📂 Project Structure
 - `vision/` → Camera streaming & processing
-- `control/` → Motor drivers & remote control
-- `robot_main.py` → Main program
+- `control/` → Motor drivers (PWN, fuzzy) & remote control
+- `brave2.py` → Main program
 - `docs/` → System architecture & power design
 
 ## 🚀 Getting Started
