@@ -48,4 +48,5 @@ This project implements a new control design for the BRAVE robot powered by **NV
 3. Jetson sends PWM/I2C commands to motor drivers (BLDC/servo)
 4. Motors actuate robot accordingly
 
-<img width="810" height="336" alt="brave_system" src="https://github.com/user-attachments/assets/0fc655c5-cb79-4dc8-a10c-7180acd42ef9" />
+<img width="816" height="338" alt="brave_system" src="https://github.com/user-attachments/assets/5d5e81f9-c9ad-438b-b827-1b95f2ba1c92" />
+
