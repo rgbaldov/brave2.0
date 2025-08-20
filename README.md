@@ -1,4 +1,4 @@
-# BRAVE 2.0 Controls (new)
+<img width="1880" height="1118" alt="conceptual_framework" src="https://github.com/user-attachments/assets/ce535f87-f6ef-4133-bd94-ca47e7bbe2d4" /># BRAVE 2.0 Controls (new)
 
 This project implements a new control design for the BRAVE robot powered by **NVIDIA Jetson Orin Nano**, equipped with **4×4K cameras**, RC capabilities, and **BLDC/servo motor drivers** for mobility and actuation.  
 
@@ -39,8 +39,13 @@ This project implements a new control design for the BRAVE robot powered by **NV
 2. DC-DC Step Down 12V → BLDC Motors + ESCs
 3. DC-DC Step Down 6V → Servo Motors (PCA9685)
 4. DC-DC Step Down 5V/4A → Jetson Orin Nano + Cameras
+
+<img width="1106" height="232" alt="brave_power" src="https://github.com/user-attachments/assets/9ed97946-3dc6-4912-99f6-f2dfc8453d65" />
+
 - System Framework:
 1. Jetson Orin Nano processes multi-camera input
 2. User issues commands via RC (keyboard/web/joystick)
 3. Jetson sends PWM/I2C commands to motor drivers (BLDC/servo)
 4. Motors actuate robot accordingly
+
+<img width="810" height="336" alt="brave_system" src="https://github.com/user-attachments/assets/0fc655c5-cb79-4dc8-a10c-7180acd42ef9" />
