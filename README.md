@@ -32,3 +32,15 @@ This project implements a new control design for the BRAVE robot powered by **NV
 - 4×4K USB/CSI cameras
 - BLDC motors with ESCs or servo motors with PWM drivers (e.g., PCA9685)
 - Power Supply: 24V battery → DC-DC converters (12V for motors, 5V for Jetson, 6V for servos)
+
+## 📐 Conceptual Framework (Power & System Design)
+- Power Distribution:
+-- Battery Pack (24V Li-ion)
+-- DC-DC Step Down 12V → BLDC Motors + ESCs
+-- DC-DC Step Down 6V → Servo Motors (PCA9685)
+-- DC-DC Step Down 5V/4A → Jetson Orin Nano + Cameras
+- System Framework:
+-- Jetson Orin Nano processes multi-camera input
+-- User issues commands via remote control (keyboard/web/joystick)
+-- Jetson sends PWM/I2C commands to motor drivers (BLDC/servo)
+-- Motors actuate robot accordingly
