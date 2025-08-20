@@ -1,4 +1,4 @@
-<img width="1880" height="1118" alt="conceptual_framework" src="https://github.com/user-attachments/assets/ce535f87-f6ef-4133-bd94-ca47e7bbe2d4" /># BRAVE 2.0 Controls (new)
+# BRAVE 2.0 Controls (new)
 
 This project implements a new control design for the BRAVE robot powered by **NVIDIA Jetson Orin Nano**, equipped with **4×4K cameras**, RC capabilities, and **BLDC/servo motor drivers** for mobility and actuation.  
 
