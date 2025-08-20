@@ -26,3 +26,9 @@ This project implements a new control design for the BRAVE robot powered by **NV
 3. Install requirements:
     ```bash
    python3 brave2.py
+
+## 🛠️ Hardware Setup
+- Jetson Orin Nano
+- 4×4K USB/CSI cameras
+- BLDC motors with ESCs or servo motors with PWM drivers (e.g., PCA9685)
+- Power Supply: 24V battery → DC-DC converters (12V for motors, 5V for Jetson, 6V for servos)
