@@ -5,7 +5,7 @@ This project implements a new control design for the BRAVE robot powered by **NV
 ## ✨ Features
 - Multi-camera (4×4K) video streaming
 - Remote control (keyboard, joystick, or web interface)
-- BLDC / Servo motor integration
+- BLDC / Servo motor integration (PWM & fuzzy control)
 - ROS2-ready modular architecture
 - AI-ready for object detection and tracking
 
