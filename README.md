@@ -1,6 +1,6 @@
 # BRAVE 2.0 Controls (new)
 
-This project implements a new control design for the BRAVE robot powered by **NVIDIA Jetson Orin Nano**, equipped with **4×4K cameras**, RC capabilities, and **BLDC/servo motor drivers** for mobility and actuation.  
+This project implements a new control design for the BRAVE robot powered by **NVIDIA Jetson Orin Nano**, equipped with **4×4K cameras**, RC capabilities, and **BLDC/servo motor drivers** for mobility and actuation. Note that the design does not include the _disruptor_ and _claw arm_ mechanism. The main program is still _in progress_. 
 
 ## ✨ Features
 - Multi-camera (4×4K) video streaming - _**done with 1 camera setup using RPi4**_
@@ -10,9 +10,8 @@ This project implements a new control design for the BRAVE robot powered by **NV
 - AI-ready for object detection and tracking (luggages, bag, and people) - _**on-going**_
 
 ## 📂 Project Structure
-- `vision/` → Camera streaming & processing
 - `control/` → Motor drivers (PWN, fuzzy) & remote control
-- `brave2.py` → Main program
+- `vision/` → Camera streaming & processing (almost same from 1st version but only 4 and without PTZ)
 - `brave2.0_controls.pdf` → System architecture & power design
 
 ## 🚀 Getting Started
