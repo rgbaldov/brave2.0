@@ -3,9 +3,9 @@
 This project implements a new control design for the BRAVE robot powered by **NVIDIA Jetson Orin Nano**, equipped with **4×4K cameras**, RC capabilities, and **BLDC/servo motor drivers** for mobility and actuation.  
 
 ## ✨ Features
-- Multi-camera (4×4K) video streaming - _**done**_
-- Remote control (keyboard, joystick, or web interface) - _**done**_
-- BLDC / Servo motor integration (PWM & fuzzy control) - _**done**_
+- Multi-camera (4×4K) video streaming - _**done with 1 camera setup using RPi4**_
+- Remote control (keyboard, joystick, or web interface) - _**done using simulation and keyboard**_
+- BLDC / Servo motor integration (PWM & fuzzy control) - _**done using simulation**_
 - ROS2-ready modular architecture - _**on-going**_
 - AI-ready for object detection and tracking (luggages, bag, and people) - _**on-going**_
 
